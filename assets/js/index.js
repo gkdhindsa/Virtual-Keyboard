@@ -12,8 +12,7 @@ function updateText(pressedButton){
         cpsLk=true;
     }
     else if(pressedButton=='sb'){
-        text=text+' ';
-        console.log('text'+'nkothing');
+        text=text+ ' ';
     }
     else{
         if(cpsLk)
@@ -21,10 +20,11 @@ function updateText(pressedButton){
         text=text+pressedButton;
 
     }
+
 }
 
 function displayText(){
-    currentTextBar.innerText=text;
+    currentTextBar.textContent=text;
 }
 
 
