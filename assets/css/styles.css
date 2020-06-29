@@ -1,0 +1,51 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container{
+    margin: 5% 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-bar{
+    height: 2rem;
+    min-width: 50%;
+    max-width: 100%;
+    background-color: #c7e2b2;
+    padding: 1rem;
+}
+.keypad{
+    align-self: center;
+    background-color: #e1ffc2;
+    padding: 2rem;
+    margin: auto;
+}
+.squared, .spacebar{
+    background-color:#e1ffc2 ;
+    border: 1px solid #c7e2b2;
+    height: 4rem;
+    margin: 0.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    outline: none;
+}
+.squared:hover, .spacebar:hover{
+    background-color: #c7e2b2;
+}
+button:active{
+    background-color: #c7e2b2;
+}
+.squared{
+    width: 4rem;
+    vertical-align: top;
+   
+}
+.squared img{
+    width: 1.5rem;
+    height: auto;
+}
+.spacebar{
+    width: 20rem;
+}
